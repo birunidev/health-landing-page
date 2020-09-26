@@ -46,3 +46,32 @@ body {
     }
   }
 }
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+}
+.section-line {
+  width: 60px;
+  height: 2px;
+  background: black;
+  margin: 30px auto;
+  display: block;
+}
+.service-card {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  margin: 10px auto;
+  border: none;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+  border-radius: 20px;
+  &__img {
+    padding: 1.25rem;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card-text {
+    color: $secondary;
+  }
+}

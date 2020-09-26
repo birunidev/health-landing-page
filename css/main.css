@@ -6628,4 +6628,35 @@ body {
   color: #1f1534;
 }
 
+.section-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.section-line {
+  width: 60px;
+  height: 2px;
+  background: black;
+  margin: 30px auto;
+  display: block;
+}
+
+.service-card {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  margin: 10px auto;
+  border: none;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+  border-radius: 20px;
+}
+.service-card__img {
+  padding: 1.25rem;
+}
+.service-card .card-title {
+  font-weight: bold;
+}
+.service-card .card-text {
+  color: #7d7987;
+}
+
 /*# sourceMappingURL=main.css.map */
