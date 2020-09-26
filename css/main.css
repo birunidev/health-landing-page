@@ -6620,4 +6620,12 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+.custom-navbar .navbar-nav .nav-item {
+  margin-right: 1.2em;
+}
+.custom-navbar .navbar-nav .active {
+  font-weight: 700;
+  color: #1f1534;
+}
+
 /*# sourceMappingURL=main.css.map */
