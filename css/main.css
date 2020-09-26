@@ -6659,4 +6659,21 @@ body {
   color: #7d7987;
 }
 
+.feature-detail {
+  margin-top: 2em;
+}
+
+.feature-line {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: black;
+  margin: 1.5em auto;
+}
+@media (min-width: 768px) {
+  .feature-line {
+    margin: 1.5em 0em;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
