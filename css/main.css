@@ -6676,4 +6676,22 @@ body {
   }
 }
 
+section {
+  margin: 9em auto;
+}
+
+.blog-card {
+  border: none;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7);
+  border-radius: 20px;
+  min-height: 480px;
+  margin: 2em auto;
+}
+.blog-card .card-title {
+  font-weight: bold;
+}
+.blog-card .card-text {
+  color: #7d7987;
+}
+
 /*# sourceMappingURL=main.css.map */
