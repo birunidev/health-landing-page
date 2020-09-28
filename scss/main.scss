@@ -108,3 +108,36 @@ section {
     color: $secondary;
   }
 }
+
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 4em 0em;
+
+  .footer-about {
+    p {
+      color: rgba($color: #fff, $alpha: 0.7);
+    }
+  }
+
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 2em;
+    color: white;
+    font-size: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+    li {
+      margin-bottom: 15px;
+      a {
+        color: rgba($color: #fff, $alpha: 0.7);
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

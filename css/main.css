@@ -6694,4 +6694,31 @@ section {
   color: #7d7987;
 }
 
+footer {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 4em 0em;
+}
+footer .footer-about p {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .footer-title {
+  font-weight: bold;
+  margin-bottom: 2em;
+  color: white;
+  font-size: 20px;
+}
+footer ul {
+  list-style: none;
+  padding: 0px;
+}
+footer ul li {
+  margin-bottom: 15px;
+}
+footer ul li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+footer ul li a:hover {
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
